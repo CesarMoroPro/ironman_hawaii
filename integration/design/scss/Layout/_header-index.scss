@@ -1,0 +1,17 @@
+.header-index {
+
+    // h1 {
+    // @extend %anton;
+    // font-size: $regular_1;
+    // color: #1aa0dfec ;
+    // opacity: 0.1;
+    // -webkit-text-stroke: 1px darkblue;
+    // }
+
+    h1 {
+        @extend %anton;
+        font-size: $regular_1;
+        color: rgba(255, 255, 255, 0.5);
+        -webkit-text-stroke: 1px #1aa0dfec;
+    }
+}

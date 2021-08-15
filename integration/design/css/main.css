@@ -57,8 +57,22 @@ table {
   border-spacing: 0;
 }
 
-h1 {
-  color: #1aa0dfec;
+body {
+  width: auto;
+  padding: 25px 50px;
+}
+body .header-index h1, .header-index body h1 {
+  font-family: Anton, "Sans-serif";
+}
+
+@font-face {
+  font-family: "Anton";
+  src: url("/integration/design/fonts/Anton-Regular.ttf");
+}
+.header-index h1 {
+  font-size: 12em;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-text-stroke: 1px #1aa0dfec;
 }
 
 /*# sourceMappingURL=main.css.map */
