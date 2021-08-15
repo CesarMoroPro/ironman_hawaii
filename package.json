@@ -1,0 +1,25 @@
+{
+  "name": "ironman_hawaii",
+  "version": "1.0.0",
+  "description": "Remix of the official website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CesarMoroPro/ironman_hawaii.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CesarMoroPro/ironman_hawaii/issues"
+  },
+  "homepage": "https://github.com/CesarMoroPro/ironman_hawaii#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "reset-css": "^5.0.1"
+  }
+}
