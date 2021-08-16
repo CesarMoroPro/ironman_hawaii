@@ -7,8 +7,8 @@ $font-size-small_2: math.div($font-size-regular, 2);
 $font-size_large_1: $font-size-regular *1.5;
 $font-size-large_2: $font-size-regular *2;
 $font-size-large_3: $font-size-regular *3;
-$font-size-large_4: $font-size-regular *6;
-$font-size-large_5: $font-size-regular *12;
+$font-size-large_4: $font-size-regular *4;
+$font-size-large_5: $font-size-regular *5;
 
 
 //! Gutter-sizes
@@ -30,5 +30,5 @@ $gutter-size-large_6: $gutter-size-regular*4;
 
 
 //! Colors
-$title: #1aa0dfec;
+$title:rgba(26, 160, 223);
 $texte: #97b0bc;

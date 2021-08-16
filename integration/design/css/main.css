@@ -71,21 +71,28 @@ body {
 }
 .header-index {
   display: flex;
-  background-image: url("../../img/turtle-banner.jpg");
+}
+.header-index__img {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  width: 100%;
+  opacity: 0.6;
 }
 .header-index h1 {
+  padding-bottom: 100px;
   font-family: Anton, "Sans-serif";
   text-transform: uppercase;
-  font-size: 6em;
-  color: rgba(26, 160, 223, 0.05);
-  -webkit-text-stroke: 1px #1aa0dfec;
+  font-size: 5em;
+  color: rgba(26, 160, 223, 0.35);
+  -webkit-text-stroke: 1.5px #1aa0df;
 }
 .header-index__titles .h2 {
   display: flex;
   justify-content: flex-end;
   font-family: Anton, "Sans-serif";
   font-style: italic;
-  color: rgba(26, 160, 223, 0.4);
+  color: rgba(26, 160, 223, 0.75);
   font-size: 1.5em;
 }
 
