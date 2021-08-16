@@ -1,12 +1,24 @@
 //! Font-sizes
-$regular_1: 12em;
-$regular_2: 6em;
-$regular_3: 3em;
-$regular_4: 2em;
-$regular_5: 1.5em;
-$regular_6: 1em;
-$regular_7: 0.75em;
+$font-size-regular_1: 12em;
+$font-size-regular_2: 6em;
+$font-size-regular_3: 3em;
+$font-size-regular_4: 2em;
+$font-size-regular_5: 1.5em;
+$font-size-regular_6: 1em;
+$font-size-regular_7: 0.75em;
 
 //! Gutter-sizes
 
+
+$gutter-size-regular: 100px;
+
+$gutter-size-large_1: $gutter-size-regular*1.5;
+$gutter-size-large_2: $gutter-size-regular*2;
+$gutter-size-large_3: $gutter-size-regular*2.5;
+$gutter-size-large_4: $gutter-size-regular*3;
+$gutter-size-large_5: $gutter-size-regular*3.5;
+$gutter-size-large_6: $gutter-size-regular*4;
+
 //! Colors
+$title: #1aa0dfec;
+$texte: #97b0bc;

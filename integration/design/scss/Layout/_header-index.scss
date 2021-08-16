@@ -1,17 +1,28 @@
 .header-index {
-
-    // h1 {
-    // @extend %anton;
-    // font-size: $regular_1;
-    // color: #1aa0dfec ;
-    // opacity: 0.1;
-    // -webkit-text-stroke: 1px darkblue;
-    // }
+    display: flex;
+    background-image: url("../../img/turtle-banner.jpg");
 
     h1 {
-        @extend %anton;
-        font-size: $regular_1;
-        color: rgba(255, 255, 255, 0.5);
+        font-family: Anton, "Sans-serif";
+        text-transform: uppercase;
+        font-size: $font-size-regular_2;
+        color: rgba(26, 160, 223, 0.05);
         -webkit-text-stroke: 1px #1aa0dfec;
+    }
+
+    // h2 {
+    //     
+        
+    // }
+
+    &__titles {
+        .h2 {
+            display: flex;
+            justify-content: flex-end;
+            font-family: Anton, "Sans-serif";
+            font-style: italic;
+            color: rgba(26, 160, 223, 0.40);
+            font-size: $font-size-regular_6;
+        }
     }
 }

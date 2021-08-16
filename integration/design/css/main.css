@@ -61,18 +61,32 @@ body {
   width: auto;
   padding: 25px 50px;
 }
-body .header-index h1, .header-index body h1 {
-  font-family: Anton, "Sans-serif";
-}
-
 @font-face {
   font-family: "Anton";
-  src: url("/integration/design/fonts/Anton-Regular.ttf");
+  src: url("/integration/design/fonts/Anton/Anton-Regular.ttf");
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("/integration/design/fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+}
+.header-index {
+  display: flex;
+  background-image: url("../../img/turtle-banner.jpg");
 }
 .header-index h1 {
-  font-size: 12em;
-  color: rgba(255, 255, 255, 0.5);
+  font-family: Anton, "Sans-serif";
+  text-transform: uppercase;
+  font-size: 6em;
+  color: rgba(26, 160, 223, 0.05);
   -webkit-text-stroke: 1px #1aa0dfec;
+}
+.header-index__titles .h2 {
+  display: flex;
+  justify-content: flex-end;
+  font-family: Anton, "Sans-serif";
+  font-style: italic;
+  color: rgba(26, 160, 223, 0.4);
+  font-size: 1em;
 }
 
 /*# sourceMappingURL=main.css.map */
