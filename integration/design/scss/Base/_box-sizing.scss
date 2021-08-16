@@ -1,11 +1,12 @@
 body {
     width: auto;
-    padding: $gutter-size-small_6 $gutter-size-small_2;
+    padding: $gutter-small_5;
 
     %anton {
         font-family: Anton, 'Sans-serif';
         font-size: $font-size-regular;
         color: #97b0bc;
+        letter-spacing: 0.2em;
 
     }
 

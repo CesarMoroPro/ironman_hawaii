@@ -12,23 +12,27 @@ $font-size-large_5: $font-size-regular *5;
 
 
 //! Gutter-sizes
-$gutter-size-regular: 100px;
+$gutter-regular: 100px;
 
-$gutter-size-small_1: math.div($gutter-size-regular, 1.5);
-$gutter-size-small_2: math.div($gutter-size-regular, 2);
-$gutter-size-small_3: math.div($gutter-size-regular, 2.5);
-$gutter-size-small_4: math.div($gutter-size-regular, 3);
-$gutter-size-small_5: math.div($gutter-size-regular, 3.5);
-$gutter-size-small_6: math.div($gutter-size-regular, 4);
+$gutter-small_1: math.div($gutter-regular, 1.5);
+$gutter-small_2: math.div($gutter-regular, 2);
+$gutter-small_3: math.div($gutter-regular, 3);
+$gutter-small_4: math.div($gutter-regular, 4);
+$gutter-small_5: math.div($gutter-regular, 5);
+$gutter-small_6: math.div($gutter-regular, 6);
+$gutter-small_7: math.div($gutter-regular, 7);
+$gutter-small_8: math.div($gutter-regular, 8);
+$gutter-small_9: math.div($gutter-regular, 9);
+$gutter-small_10: math.div($gutter-regular, 10);
 
-$gutter-size-large_1: $gutter-size-regular*1.5;
-$gutter-size-large_2: $gutter-size-regular*2;
-$gutter-size-large_3: $gutter-size-regular*2.5;
-$gutter-size-large_4: $gutter-size-regular*3;
-$gutter-size-large_5: $gutter-size-regular*3.5;
-$gutter-size-large_6: $gutter-size-regular*4;
+$gutter-large_1: $gutter-regular*1.5;
+$gutter-large_2: $gutter-regular*2;
+$gutter-large_3: $gutter-regular*2.5;
+$gutter-large_4: $gutter-regular*3;
+$gutter-large_5: $gutter-regular*3.5;
+$gutter-large_6: $gutter-regular*4;
 
 
 //! Colors
-$title:rgba(26, 160, 223);
-$texte: #97b0bc;
+$color-title:rgba(26, 160, 223);
+$color-text: #97b0bc;
