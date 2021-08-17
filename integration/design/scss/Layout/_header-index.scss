@@ -1,11 +1,12 @@
+//! Mobile-first
 .header-index {
     display: flex;
     flex-direction: column;
     height: 175px;
-    min-width: 700px;
     padding: $gutter-small_7 $gutter-small_7;
 
     h1 {
+        text-align: left;
         font-family: Anton, "Sans-serif";
         text-transform: uppercase;
         font-size: $font-size-large_5;
@@ -14,25 +15,37 @@
         -webkit-text-stroke: 1.5px $color-title;
     }
 
-    h2 {
-        display:flex;
+    &__right {
+        display: flex;
         justify-content: flex-end;
-        padding-top: $gutter-regular;
-        width: 100%;
-        height: 30px;
-        font-family: Anton, "Sans-serif";
-        font-style: italic;
-        letter-spacing: 0.3em;
-        color: rgba($color-title, 0.75);
-        font-size: $font-size-large_1;
+
+        h2 {
+            padding-top: $gutter-regular;
+            max-width: 550px;
+            height: 30px;
+            font-family: Anton, "Sans-serif";
+            font-style: italic;
+            letter-spacing: 0.20em;
+            color: rgba($color-title, 0.70);
+            font-size: $font-size-large_1;
+        }
     }
 
     &__img {
-        opacity: 0.6;
+        opacity: 0.5;
         position: absolute;
         top: $gutter-small_5;
         left: $gutter-small_5;
         width: 96%;
         height: 320px;
     }
+}
+
+//! Tablet-mode
+@media all and (min-width: 480px) and (max-width: 900px){
+   .header-index {
+        h1 {
+            color: $color-test;
+        }
+   }
 }

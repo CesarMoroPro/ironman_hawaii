@@ -58,8 +58,12 @@ table {
 }
 
 body {
+  box-sizing: border-box;
   width: auto;
+  text-align: center;
   padding: 20px;
+  min-width: 850px;
+  max-width: 1450px;
 }
 @font-face {
   font-family: "Anton";
@@ -73,10 +77,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 175px;
-  min-width: 700px;
   padding: 14.2857142857px 14.2857142857px;
 }
 .header-index h1 {
+  text-align: left;
   font-family: Anton, "Sans-serif";
   text-transform: uppercase;
   font-size: 5em;
@@ -84,25 +88,33 @@ body {
   color: rgba(26, 160, 223, 0.35);
   -webkit-text-stroke: 1.5px #1aa0df;
 }
-.header-index h2 {
+.header-index__right {
   display: flex;
   justify-content: flex-end;
+}
+.header-index__right h2 {
   padding-top: 100px;
-  width: 100%;
+  max-width: 550px;
   height: 30px;
   font-family: Anton, "Sans-serif";
   font-style: italic;
-  letter-spacing: 0.3em;
-  color: rgba(26, 160, 223, 0.75);
+  letter-spacing: 0.2em;
+  color: rgba(26, 160, 223, 0.7);
   font-size: 1.5em;
 }
 .header-index__img {
-  opacity: 0.6;
+  opacity: 0.5;
   position: absolute;
   top: 20px;
   left: 20px;
   width: 96%;
   height: 320px;
+}
+
+@media all and (min-width: 480px) and (max-width: 900px) {
+  .header-index h1 {
+    color: #f0f;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,10 @@
 body {
+    box-sizing: border-box;
     width: auto;
+    text-align: center;
     padding: $gutter-small_5;
+    min-width: 850px;
+    max-width: 1450px;
 
     %anton {
         font-family: Anton, 'Sans-serif';

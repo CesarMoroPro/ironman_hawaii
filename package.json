@@ -20,7 +20,6 @@
     "gulp": "^4.0.2"
   },
   "dependencies": {
-    "rellax": "^1.12.1",
     "reset-css": "^5.0.1"
   }
 }
