@@ -1,5 +1,5 @@
-//! Mobile-first
 .header-index {
+    //! Mobile-first
     display: flex;
     flex-direction: column;
     height: 175px;
@@ -11,8 +11,8 @@
         text-transform: uppercase;
         font-size: $font-size-large_5;
         letter-spacing: 0.075em;
-        color: rgba($color-title, 0.35);
-        -webkit-text-stroke: 1.5px $color-title;
+        color: rgba($color-title, 0.10);
+        -webkit-text-stroke: 3px $color-title;
     }
 
     &__right {
@@ -21,11 +21,10 @@
 
         h2 {
             padding-top: $gutter-regular;
-            max-width: 550px;
             height: 30px;
             font-family: Anton, "Sans-serif";
             font-style: italic;
-            letter-spacing: 0.20em;
+            letter-spacing: 0.23em;
             color: rgba($color-title, 0.70);
             font-size: $font-size-large_1;
         }
@@ -36,16 +35,24 @@
         position: absolute;
         top: $gutter-small_5;
         left: $gutter-small_5;
-        width: 96%;
         height: 320px;
+        width: 100%;
+        // border: red solid 5px;
     }
-}
 
-//! Tablet-mode
-@media all and (min-width: 480px) and (max-width: 900px){
-   .header-index {
+
+    //! Tablet-mode
+    @media all and (min-width: $tablet-min) and (max-width: $tablet-max){ 
         h1 {
-            color: $color-test;
+            color: green;
         }
-   }
+    }
+
+
+    //! Desktop-mode
+    @media all and (min-width: $desktop-min){
+        h1 {
+            color: red;
+        }
+    }
 }

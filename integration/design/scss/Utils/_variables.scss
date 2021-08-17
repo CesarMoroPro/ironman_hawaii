@@ -36,5 +36,10 @@ $gutter-large_6: $gutter-regular*4;
 //! Colors
 $color-title:rgba(26, 160, 223);
 $color-text: #97b0bc;
+$color-fof: #f0f;
 
-$color-test: #f0f;
+
+//! Media queries values
+$tablet-min: 379px; // max-width = iPad (378 = max-width iPhone X)
+$tablet-max: 767px; // max-width = iPad
+$desktop-min: 768px; // min-width = iPad pro
