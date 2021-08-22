@@ -66,7 +66,6 @@ body {
   min-width: 850px;
   max-width: 1450px;
 }
-
 @font-face {
   font-family: "Anton";
   src: url("/integration/design/fonts/Anton/Anton-Regular.ttf");
@@ -82,7 +81,6 @@ body {
   height: 175px;
   padding: 11.1111111111px;
 }
-
 .header-index__img {
   opacity: 0.5;
   position: absolute;
@@ -91,7 +89,6 @@ body {
   height: auto;
   width: auto;
 }
-
 .header-index h1 {
   text-align: left;
   font-family: Anton, "Sans-serif";
@@ -101,12 +98,10 @@ body {
   color: rgba(26, 160, 223, 0.1);
   -webkit-text-stroke: 3px #1aa0df;
 }
-
 .header-index__right {
   display: flex;
   justify-content: flex-end;
 }
-
 .header-index__right h2 {
   padding-top: 100px;
   height: 30px;
@@ -116,7 +111,6 @@ body {
   color: rgba(26, 160, 223, 0.7);
   font-size: 1.5em;
 }
-
 @media all and (min-width: 379px) and (max-width: 767px) {
   .header-index h1 {
     color: #f0f;
@@ -126,7 +120,4 @@ body {
   .header-index h1 {
     color: blue;
   }
-}
-/*# sourceMappingURL=main.css.map */
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

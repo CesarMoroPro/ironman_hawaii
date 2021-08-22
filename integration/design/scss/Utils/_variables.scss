@@ -3,6 +3,8 @@ $font-size-regular: 1em;
 
 $font-size-small_1: math.div($font-size-regular, 2)*1.5;
 $font-size-small_2: math.div($font-size-regular, 2);
+$font-size-small_5: math.div($font-size-regular, 5);
+$font-size-small_10: $font-size-regular * 0.075;
 
 $font-size_large_1: $font-size-regular *1.5;
 $font-size-large_2: $font-size-regular *2;
@@ -40,6 +42,6 @@ $color-fof: #f0f;
 
 
 //! Media queries values
-$tablet-min: 379px; // max-width = iPad (378 = max-width iPhone X)
-$tablet-max: 767px; // max-width = iPad
-$desktop-min: 768px; // min-width = iPad pro
+$tablet-min: 379px; // min-width of iPad (378px = max-width of iPhone X)
+$tablet-max: 767px; // max-width of iPad
+$desktop-min: 768px; // min-width of iPad pro
