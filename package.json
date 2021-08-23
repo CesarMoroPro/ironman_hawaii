@@ -4,8 +4,11 @@
   "description": "Remix of the official website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-compile": "echo 'sass /var/www/projets/training/front-end/ironman_hawaii/integration/design/scss/main.scss /var/www/projets/training/front-end/ironman_hawaii/integration/design/css/main.css'",
+    "sass-w": "sass --watch /var/www/projets/training/front-end/ironman_hawaii/integration/design/scss:/var/www/projets/training/front-end/ironman_hawaii/integration/design/css"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CesarMoroPro/ironman_hawaii.git"

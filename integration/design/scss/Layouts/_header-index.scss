@@ -1,54 +1,72 @@
 .header-index {
     //! Mobile-first
+    max-height: 130px;
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: 175px;
-    padding: $gutter-small_9;
 
-    &__img {
-        opacity: 0.5;
-        position: absolute;
-        top: $gutter-small_5;
-        left: $gutter-small_5;
-        height: auto;
-        width: auto;
+    .banner-img {
+        opacity: 0.55;
+        max-width: 375px;
+        max-height: 140px;
     }
 
     h1 {
+        position: fixed;
+        top: 20px;
+        padding-top: $gutter-small_10;
+        padding-left: $gutter-small_10;
         text-align: left;
         font-family: Anton, "Sans-serif";
         text-transform: uppercase;
-        font-size: $font-size-large_4;
+        font-size: $font-size-large_1;
         letter-spacing: $font-size-small_10;
-        color: rgba($color-title, 0.10);
-        -webkit-text-stroke: 3px $color-title;
+        color: rgba($color-title, 0.50);
+        -webkit-text-stroke: 1px $color-fof;
     }
 
-    &__right {
+    h2 {
+        position: relative;
+        bottom: 25px;
         display: flex;
         justify-content: flex-end;
-
-        h2 {
-            padding-top: $gutter-regular;
-            height: 30px;
-            font-family: Anton, "Sans-serif";
-            font-style: italic;
-            letter-spacing: $font-size-small_5;
-            color: rgba($color-title, 0.70);
-            font-size: $font-size-large_1;
-        }
+        padding-right: $gutter-small_10;
+        height: 20px;
+        font-family: Anton, "Sans-serif";
+        font-style: italic;
+        letter-spacing: $font-size-small_7;
+        color: rgba($color-fof, 0.50);
+        font-size: $font-size-small_1;
     }
 
     //! Tablet mode
-    @media all and (min-width: $tablet-min) and (max-width: $tablet-max) {
+    @media all and (min-width: $tablet-min) and (max-width: 639px) {
+        .banner-img {
+            max-width: 767px;
+            max-height: 286px;
+        }
+        
         h1 {
-            color: $color-fof;
+            font-size: $font-size-large_2;
+        }
+
+        h2 {
+            font-size: $font-size-regular;
+            letter-spacing: $font-size-small_6;
+            padding-right: $gutter-small_2;
+        }
+    }
+
+    @media all and (min-width: 640px) and (max-width: $tablet-max){
+        h1 {
+            font-size: $font-size-large_2-5;
         }
     }
 
     //! Desktop mode
     @media all and (min-width: $desktop-min){
+        .banner-img {
+            width: 1024px;
+        }
         h1 {
             color: blue;
         }

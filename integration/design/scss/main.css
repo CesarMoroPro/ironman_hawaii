@@ -74,13 +74,6 @@ body {
   font-family: "Quicksand";
   src: url("/integration/design/fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
 }
-.header-index {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  height: 175px;
-  padding: 11.1111111111px;
-}
 .header-index__img {
   opacity: 0.5;
   position: absolute;
@@ -90,6 +83,8 @@ body {
   width: auto;
 }
 .header-index h1 {
+  padding-top: 11.1111111111px;
+  padding-left: 11.1111111111px;
   text-align: left;
   font-family: Anton, "Sans-serif";
   text-transform: uppercase;

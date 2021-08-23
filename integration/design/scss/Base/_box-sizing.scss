@@ -1,11 +1,9 @@
 body {
     box-sizing: border-box;
+    min-width: ($tablet-min) - 1px;
     width: auto;
-    height: auto;
     text-align: center;
     padding: $gutter-small_5;
-    min-width: 850px;
-    max-width: 1450px;
 
     %anton {
         font-family: Anton, 'Sans-serif';
