@@ -1,8 +1,9 @@
 body {
-    box-sizing: border-box;
+    box-sizing: content-box;
     min-width: $mobile-min;
-    max-width: $giant-min;
+    max-width: $giant-max;
     width: auto;
+    height: auto;
     text-align: center;
     padding: $gutter-small_5;
 

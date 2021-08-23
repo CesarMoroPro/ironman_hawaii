@@ -18,7 +18,7 @@
             top: 20px;
             padding-top: $gutter-small_10;
             text-align: center;
-            font-family: Quicksand, "Sans-serif";
+            font-family: Anton, "Sans-serif";
             text-transform: uppercase;
             font-size: $font-size-large_1;
             letter-spacing: $font-size-small_7;
@@ -41,7 +41,7 @@
     }
 
     //! -------------------- Tablet mode --------------------
-    @media all and (min-width: $tablet-min) {        
+    @media all and (min-width: $tablet-min) {
         .banner-img {
             max-width: $tablet-max;
             max-height: 248px;
@@ -59,23 +59,23 @@
 
     //! -------------------- Desktop mode --------------------
     @media all and (min-width: $desktop-min) {
-        align-items: flex-start;
-
         .banner-img {
             max-width: $desktop-max;
             max-height: 350px;
         }
         
-        h1 {
+        h1 {       
             text-align: left;
             font-size: $font-size-large_3;
             letter-spacing: $font-size-small_6;
-            padding-left: $gutter-small_7;
+            position: relative;
+            top: -340px;
+            left: -210px;
         }
 
         h2 {
-            left: 250px;
-            bottom: 35px;
+            left: 125px;
+            top: -145px;
             font-size: $font-size_large_1;
             letter-spacing: $font-size-small_3;
         }
@@ -89,7 +89,7 @@
         }
         
         h1 {
-            
+            left: -150px;
             font-size: $font-size-large_4;
             letter-spacing: $font-size-small_4;
         }
@@ -97,8 +97,8 @@
         h2 {
             font-size: $font-size-large_2;
             letter-spacing: $font-size-small_4;
-            bottom: 45px;
-            left: 300px;
+            left: 130px;
+            top: -190px;
         }
     }
 }

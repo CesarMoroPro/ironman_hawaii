@@ -58,10 +58,11 @@ table {
 }
 
 body {
-  box-sizing: border-box;
+  box-sizing: content-box;
   min-width: 350px;
-  max-width: 1201px;
+  max-width: 2000px;
   width: auto;
+  height: auto;
   text-align: center;
   padding: 20px;
 }
@@ -90,7 +91,7 @@ body {
     top: 20px;
     padding-top: 10px;
     text-align: center;
-    font-family: Quicksand, "Sans-serif";
+    font-family: Anton, "Sans-serif";
     text-transform: uppercase;
     font-size: 1.5em;
     letter-spacing: 0.1428571429em;
@@ -124,9 +125,6 @@ body {
   }
 }
 @media all and (min-width: 851px) {
-  .header-index {
-    align-items: flex-start;
-  }
   .header-index .banner-img {
     max-width: 1200px;
     max-height: 350px;
@@ -135,11 +133,13 @@ body {
     text-align: left;
     font-size: 3em;
     letter-spacing: 0.1666666667em;
-    padding-left: 14.2857142857px;
+    position: relative;
+    top: -340px;
+    left: -210px;
   }
   .header-index h2 {
-    left: 250px;
-    bottom: 35px;
+    left: 125px;
+    top: -145px;
     font-size: 1.5em;
     letter-spacing: 0.3333333333em;
   }
@@ -150,14 +150,15 @@ body {
     min-height: 350px;
   }
   .header-index h1 {
+    left: -150px;
     font-size: 4em;
     letter-spacing: 0.25em;
   }
   .header-index h2 {
     font-size: 2em;
     letter-spacing: 0.25em;
-    bottom: 45px;
-    left: 300px;
+    left: 130px;
+    top: -190px;
   }
 }
 
