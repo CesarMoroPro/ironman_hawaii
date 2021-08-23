@@ -59,7 +59,8 @@ table {
 
 body {
   box-sizing: border-box;
-  min-width: 375px;
+  min-width: 479px;
+  max-width: 1201px;
   width: auto;
   text-align: center;
   padding: 20px;
@@ -79,7 +80,7 @@ body {
 }
 .header-index .banner-img {
   opacity: 0.55;
-  max-width: 375px;
+  max-width: 480px -1;
   max-height: 140px;
 }
 .header-index h1 {
@@ -92,8 +93,8 @@ body {
   text-transform: uppercase;
   font-size: 1.5em;
   letter-spacing: 0.075em;
-  color: rgba(26, 160, 223, 0.5);
-  -webkit-text-stroke: 1px #f0f;
+  color: rgba(26, 160, 223, 0.2);
+  -webkit-text-stroke: 1.25px #f0f;
 }
 .header-index h2 {
   position: relative;
@@ -108,13 +109,13 @@ body {
   color: rgba(255, 0, 255, 0.5);
   font-size: 0.75em;
 }
-@media all and (min-width: 376px) and (max-width: 639px) {
+@media all and (min-width: 480px) and (max-width: 850px) {
   .header-index .banner-img {
-    max-width: 767px;
-    max-height: 286px;
+    max-width: 850px;
+    max-height: 248px;
   }
   .header-index h1 {
-    font-size: 2em;
+    font-size: 2.5em;
   }
   .header-index h2 {
     font-size: 1em;
@@ -122,17 +123,36 @@ body {
     padding-right: 50px;
   }
 }
-@media all and (min-width: 640px) and (max-width: 767px) {
+@media all and (min-width: 851px) and (max-width: 1200px) {
+  .header-index .banner-img {
+    max-width: 1200px;
+    max-height: 350px;
+  }
   .header-index h1 {
-    font-size: 2.5em;
+    font-size: 4em;
+    letter-spacing: 0.1666666667em;
+  }
+  .header-index h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    padding-right: 16.6666666667px;
+    bottom: 35px;
   }
 }
-@media all and (min-width: 768px) {
+@media all and (min-width: 1201px) {
   .header-index .banner-img {
-    width: 1024px;
+    min-width: 1201px;
+    min-height: 350px;
   }
   .header-index h1 {
-    color: blue;
+    font-size: 5em;
+    letter-spacing: 0.25em;
+  }
+  .header-index h2 {
+    font-size: 2em;
+    letter-spacing: 0.25em;
+    padding-right: 25px;
+    bottom: 45px;
   }
 }
 

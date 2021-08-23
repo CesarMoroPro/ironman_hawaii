@@ -1,12 +1,12 @@
 .header-index {
-    //! Mobile-first
+    //! -------------------- Mobile-first --------------------
     max-height: 130px;
     display: flex;
     flex-direction: column;
 
     .banner-img {
         opacity: 0.55;
-        max-width: 375px;
+        max-width: $tablet-min -1;
         max-height: 140px;
     }
 
@@ -20,8 +20,8 @@
         text-transform: uppercase;
         font-size: $font-size-large_1;
         letter-spacing: $font-size-small_10;
-        color: rgba($color-title, 0.50);
-        -webkit-text-stroke: 1px $color-fof;
+        color: rgba($color-title, 0.20);
+        -webkit-text-stroke: 1.25px $color-fof;
     }
 
     h2 {
@@ -38,15 +38,15 @@
         font-size: $font-size-small_1;
     }
 
-    //! Tablet mode
-    @media all and (min-width: $tablet-min) and (max-width: 639px) {
+    //! -------------------- Tablet mode --------------------
+    @media all and (min-width: $tablet-min) and (max-width: $tablet-max) {
         .banner-img {
-            max-width: 767px;
-            max-height: 286px;
+            max-width: $tablet-max;
+            max-height: 248px;
         }
         
         h1 {
-            font-size: $font-size-large_2;
+            font-size: $font-size-large_2-5;
         }
 
         h2 {
@@ -56,19 +56,45 @@
         }
     }
 
-    @media all and (min-width: 640px) and (max-width: $tablet-max){
+    //! -------------------- Desktop mode --------------------
+    @media all and (min-width: $desktop-min) and (max-width: $desktop-max) {
+        .banner-img {
+            max-width: $desktop-max;
+            max-height: 350px;
+        }
+        
         h1 {
-            font-size: $font-size-large_2-5;
+            
+            font-size: $font-size-large_4;
+            letter-spacing: $font-size-small_6;
+        }
+
+        h2 {
+            font-size: $font-size_large_1;
+            letter-spacing: $font-size-small_5;
+            padding-right: $gutter-small_6;
+            bottom: 35px;
         }
     }
 
-    //! Desktop mode
-    @media all and (min-width: $desktop-min){
+    //! -------------------- Giant mode --------------------
+    @media all and (min-width: $giant-min) {
         .banner-img {
-            width: 1024px;
+            min-width: $giant-min; ;
+            min-height: 350px;
         }
+        
         h1 {
-            color: blue;
+            
+            font-size: $font-size-large_5;
+            letter-spacing: $font-size-small_4;
+        }
+
+        h2 {
+            font-size: $font-size-large_2;
+            letter-spacing: $font-size-small_4;
+            padding-right: $gutter-small_4;
+            bottom: 45px;
         }
     }
 }
