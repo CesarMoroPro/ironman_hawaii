@@ -1,79 +1,83 @@
 .header-index {
     //! -------------------- Mobile-first --------------------
-    max-height: 130px;
-    display: flex;
-    flex-direction: column;
-
-    .banner-img {
-        opacity: 0.55;
-        max-width: $tablet-min -1;
-        max-height: 140px;
-    }
-
-    h1 {
-        position: fixed;
-        top: 20px;
-        padding-top: $gutter-small_10;
-        padding-left: $gutter-small_10;
-        text-align: left;
-        font-family: Anton, "Sans-serif";
-        text-transform: uppercase;
-        font-size: $font-size-large_1;
-        letter-spacing: $font-size-small_10;
-        color: rgba($color-title, 0.20);
-        -webkit-text-stroke: 1.25px $color-fof;
-    }
-
-    h2 {
-        position: relative;
-        bottom: 25px;
+    @media all and (min-width: 150px) {
+        max-height: 130px;
         display: flex;
-        justify-content: flex-end;
-        padding-right: $gutter-small_10;
-        height: 20px;
-        font-family: Anton, "Sans-serif";
-        font-style: italic;
-        letter-spacing: $font-size-small_7;
-        color: rgba($color-fof, 0.50);
-        font-size: $font-size-small_1;
+        flex-direction: column;
+        align-items: center;
+
+        .banner-img {
+            opacity: 0.55;
+            min-width: $mobile-min;
+            max-height: 140px;
+
+        }
+
+        h1 {
+            position: fixed;
+            top: 20px;
+            padding-top: $gutter-small_10;
+            text-align: center;
+            font-family: Quicksand, "Sans-serif";
+            text-transform: uppercase;
+            font-size: $font-size-large_1;
+            letter-spacing: $font-size-small_7;
+            color: rgba($color-title, 0.35);
+            -webkit-text-stroke: 0.60px $color-fof;
+        }
+
+        h2 {
+            position: relative;
+            bottom: 25px;
+            display: flex;
+            justify-content: flex-end;
+            height: 20px;
+            font-family: Quicksand, "Sans-serif";
+            font-style: italic;
+            letter-spacing: $font-size-small_7;
+            color: rgba($color-fof, 0.85);
+            font-size: $font-size-small_1;
+        }
     }
 
     //! -------------------- Tablet mode --------------------
-    @media all and (min-width: $tablet-min) and (max-width: $tablet-max) {
+    @media all and (min-width: $tablet-min) {        
         .banner-img {
             max-width: $tablet-max;
             max-height: 248px;
         }
         
         h1 {
-            font-size: $font-size-large_2-5;
+            font-size: $font-size-large_2;
         }
 
         h2 {
             font-size: $font-size-regular;
             letter-spacing: $font-size-small_6;
-            padding-right: $gutter-small_2;
         }
     }
 
     //! -------------------- Desktop mode --------------------
-    @media all and (min-width: $desktop-min) and (max-width: $desktop-max) {
+    @media all and (min-width: $desktop-min) {
+        align-items: flex-start;
+
         .banner-img {
             max-width: $desktop-max;
             max-height: 350px;
         }
         
         h1 {
-            
-            font-size: $font-size-large_4;
+            text-align: left;
+            font-size: $font-size-large_3;
             letter-spacing: $font-size-small_6;
+            padding-left: $gutter-small_7;
         }
 
         h2 {
-            font-size: $font-size_large_1;
-            letter-spacing: $font-size-small_5;
-            padding-right: $gutter-small_6;
+            left: 250px;
             bottom: 35px;
+            font-size: $font-size_large_1;
+            letter-spacing: $font-size-small_3;
         }
     }
 
@@ -86,15 +90,15 @@
         
         h1 {
             
-            font-size: $font-size-large_5;
+            font-size: $font-size-large_4;
             letter-spacing: $font-size-small_4;
         }
 
         h2 {
             font-size: $font-size-large_2;
             letter-spacing: $font-size-small_4;
-            padding-right: $gutter-small_4;
             bottom: 45px;
+            left: 300px;
         }
     }
 }

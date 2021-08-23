@@ -3,6 +3,7 @@ $font-size-regular: 1em;
 
 $font-size-small_1: math.div($font-size-regular, 2)*1.5;
 $font-size-small_2: math.div($font-size-regular, 2);
+$font-size-small_3: math.div($font-size-regular, 3);
 $font-size-small_4: math.div($font-size-regular, 4);
 $font-size-small_5: math.div($font-size-regular, 5);
 $font-size-small_6: math.div($font-size-regular, 6);
@@ -46,6 +47,8 @@ $color-fof: #f0f;
 
 
 //! Media queries values
+$mobile-min: 350px;
+$mobile-max: 479px;
 $tablet-min: 480px;
 $tablet-max: 850px;
 $desktop-min: 851px;
