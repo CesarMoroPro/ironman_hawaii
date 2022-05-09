@@ -7,16 +7,16 @@ body {
     text-align: center;
     padding: $gutter-small_5;
 
-    %anton {
-        font-family: Anton, 'Sans-serif';
+    %sairaStencilOne {
+        font-family: 'Saira Stencil One', 'Sans-serif';
         font-size: $font-size-regular;
         color: #97b0bc;
         letter-spacing: 0.2em;
 
     }
 
-    %quicksand {
-        font-family: Quicksand, 'Sans-serif';
+    %Dosis {
+        font-family: Dosis, 'Sans-serif';
         font-size: $font-size-regular;
         color: #97b0bc;
     }

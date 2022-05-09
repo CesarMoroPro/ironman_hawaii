@@ -1,22 +1,22 @@
-Quicksand Variable Font
+Dosis Variable Font
 =======================
 
-This download contains Quicksand as both a variable font and static fonts.
+This download contains Dosis as both a variable font and static fonts.
 
-Quicksand is a variable font with this axis:
+Dosis is a variable font with this axis:
   wght
 
 This means all the styles are contained in a single file:
-  Quicksand/Quicksand-VariableFont_wght.ttf
+  Dosis/Dosis-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Quicksand:
-  Quicksand/static/Quicksand-Light.ttf
-  Quicksand/static/Quicksand-Regular.ttf
-  Quicksand/static/Quicksand-Medium.ttf
-  Quicksand/static/Quicksand-SemiBold.ttf
-  Quicksand/static/Quicksand-Bold.ttf
+in those cases you can use the static font files for Dosis:
+  Dosis/static/Dosis-Light.ttf
+  Dosis/static/Dosis-Regular.ttf
+  Dosis/static/Dosis-Medium.ttf
+  Dosis/static/Dosis-SemiBold.ttf
+  Dosis/static/Dosis-Bold.ttf
 
 Get started
 -----------

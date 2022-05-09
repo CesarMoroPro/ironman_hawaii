@@ -7,7 +7,7 @@
 
     h1 {
         text-align: left;
-        font-family: Anton, "Sans-serif";
+        font-family: , "Sans-serif";
         text-transform: uppercase;
         font-size: $font-size-large_5;
         letter-spacing: 0.075em;
@@ -22,7 +22,7 @@
         h2 {
             padding-top: $gutter-regular;
             height: 30px;
-            font-family: Anton, "Sans-serif";
+            font-family: , "Sans-serif";
             font-style: italic;
             letter-spacing: 0.23em;
             color: rgba($color-title, 0.70);

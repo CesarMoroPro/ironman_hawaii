@@ -67,12 +67,12 @@ body {
   max-width: 1450px;
 }
 @font-face {
-  font-family: "Anton";
-  src: url("/integration/design/fonts/Anton/Anton-Regular.ttf");
+  font-family: "";
+  src: url("/integration/design/fonts//-Regular.ttf");
 }
 @font-face {
-  font-family: "Quicksand";
-  src: url("/integration/design/fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+  font-family: "Dosis";
+  src: url("/integration/design/fonts/Dosis/Dosis-VariableFont_wght.ttf");
 }
 .header-index__img {
   opacity: 0.5;
@@ -86,7 +86,7 @@ body {
   padding-top: 11.1111111111px;
   padding-left: 11.1111111111px;
   text-align: left;
-  font-family: Anton, "Sans-serif";
+  font-family: , "Sans-serif";
   text-transform: uppercase;
   font-size: 4em;
   letter-spacing: 0.075em;
@@ -100,7 +100,7 @@ body {
 .header-index__right h2 {
   padding-top: 100px;
   height: 30px;
-  font-family: Anton, "Sans-serif";
+  font-family: , "Sans-serif";
   font-style: italic;
   letter-spacing: 0.2em;
   color: rgba(26, 160, 223, 0.7);

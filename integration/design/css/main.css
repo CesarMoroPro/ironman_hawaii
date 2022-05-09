@@ -67,12 +67,12 @@ body {
   padding: 20px;
 }
 @font-face {
-  font-family: "Anton";
-  src: url("/integration/design/fonts/Anton/Anton-Regular.ttf");
+  font-family: "Saira Stencil One";
+  src: url("/integration/design/fonts/Saira_Stencil_One/SairaStencilOne-Regular.ttf");
 }
 @font-face {
-  font-family: "Quicksand";
-  src: url("/integration/design/fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+  font-family: "Dosis";
+  src: url("/integration/design/fonts/Dosis/Dosis-VariableFont_wght.ttf");
 }
 @media all and (min-width: 150px) {
   .header-index {
@@ -91,7 +91,7 @@ body {
     top: 20px;
     padding-top: 10px;
     text-align: center;
-    font-family: Anton, "Sans-serif";
+    font-family: "Saira Stencil One", "Sans-serif";
     text-transform: uppercase;
     font-size: 1.5em;
     letter-spacing: 0.1428571429em;
@@ -104,7 +104,7 @@ body {
     display: flex;
     justify-content: flex-end;
     height: 20px;
-    font-family: Quicksand, "Sans-serif";
+    font-family: Dosis, "Sans-serif";
     font-style: italic;
     letter-spacing: 0.1428571429em;
     color: rgba(255, 0, 255, 0.85);
@@ -160,6 +160,14 @@ body {
     left: 130px;
     top: -190px;
   }
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.swiper .swiper-slide {
+  color: purple;
 }
 
 /*# sourceMappingURL=main.css.map */
